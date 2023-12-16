@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="section-gradient">
+        <div class="section-gradient__shadow section-gradient__shadow--1">
+        </div>
+        <div class="section-gradient__shadow section-gradient__shadow--2">
+        </div>
+        <main class="main-wrap">
+            <div class="main-wrap-bg">
+                <object data="./assets/img_svg/hlegal_logo_svg.svg" type="" aria-label="Logo Hlegal" class="main-wrap-bg__h"></object>
+            </div>
+            <div class="main-wrap__section">
+
+                <!-- Header -->
+                <header class="main-wrap__header">
+                        <nav class="navbar navbar-dark navbar-expand-sm">
+                            <div class="container">
+                               <div class="header-grid w-100">
+                                <div class="header-grid-logo d-flex align-items-center justify-content-between">
+                                    <a class="navbar-brand" href="#">
+                                        <object data="./assets/icons/hlegal-header-logo.svg" type=""></object>
+                                    </a>
+                                    <button class="hlegal-toggler navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                                    aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="header-grid__info d-none d-sm-flex align-items-center
+                                 gap-3  justify-content-md-end justify-content-start">
+                                    <div class="lang-wrap d-flex g-1">
+                                        <button class="header-btn-sm">УК</button>
+                                        <button class="header-btn-sm">РУ</button>
+                                        <button class="header-btn-sm active">EN</button>
+                                    </div>
+                                    <address class="d-flex align-items-center m-0 gap-3">
+                                        <p class="adress-item location mb-0">
+                                            Kyiv, Mechnikova str, 14/1
+                                        </p>
+                                        <p class="adress-item adress-item__phone-number text-white mb-0">
+                                            0800 211 927
+                                        </p>
+                                        <a class="adress-item mb-0" href="">
+                                            <object data="./assets/icons/facebook-header-logo.svg" type=""></object>
+                                        </a>
+                                    </address>
+                                
+                                </div>
+                                <div class="offcanvas h-50 offcanvas-bottom header-grid__nav text-bg-light" tabindex="-1" id="offcanvasDarkNavbar"
+                                    aria-labelledby="offcanvasDarkNavbarLabel">
+                                    <div class="offcanvas-header justify-content-end">
+                                        <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body justify-content-md-end justify-content-start">
+                                        <nav>
+                                            <ul class="d-flex gap-3 ps-0 flex-sm-row flex-column">
+                                                <li class="menu-link d-flex justify-content-center ">
+                                                    <a class=" link nav-link-h" href="">about us</a>
+                                                </li>
+                                                <li class="menu-link d-flex justify-content-center">
+                                                    <a class=" link nav-link-h" href="">services</a>
+                                                </li>
+                                                <li class="menu-link d-flex justify-content-center">
+                                                    <a class=" link nav-link-h active-page" href="./team.html">team</a>
+                                                </li>
+                                                <li class="menu-link d-flex justify-content-center">
+                                                    <a class=" link nav-link-h active" href="">publications</a>
+                                                </li>
+                                                <li class="menu-link d-flex justify-content-center active">
+                                                    <a class=" link nav-link-h" href="">contact</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                        </nav>
+                </header>
+
+                <!-- Main content -->
+                <div class="main-wrap__content">
+                    <div class="container">
+                        <h1 class="msin-wrap__title text-light txt-center">you legal solutions provider</h1>
+
+                    </div>
+                </div>
+                <div class="main-wrap__button-scroll d-flex justify-content-center pb-5">
+                    <a class="button-circle" href="#Advantages">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="button-circle__icon"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Carousel-slide -->
+        <section>
+            <div class="container-lg">
+                <div id="carouselExampleIndicators" class="carousel slide  d-grid">
+                    <div class="carousel-indicators carousel-indicators-h">
+                       <div class="carousel-indicators__btn">
+                        <button type="text-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1">Consistent</button>
+                        <button type="text-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2">Customer oriented</button>
+                        <button type="text-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3">Innovative</button>
+                        <button type="text-button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4">Business oriented</button>
+                       </div>
+                    </div>
+                    <div class="carousel-inner text-light">
+                        <div class="carousel-item active">
+                           <h1 class="text-start pb-4">We turn the idea of legal services</h1>
+                           <p>
+                             Consolidating many years
+                             of experience and practice, the company's lawyers accompany complex projects and achieve a
+                             number of important decisions for the industry. Many of them form the practice of applying 
+                             the law of the sea in
+                             Ukraine.
+                           </p>
+                        </div>
+                        <div class="carousel-item">
+                        <h1 class="text-start pb-4">IT and e-commerce</h1>
+                        <p>
+                         An endless stream of contracts, tax issues, labor relations,
+                         corporate papers - legal work distracts you from doing
+                         business. But there is not much work to do to hire an in-house lawyer.
+                        </p>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="text-start pb-4">Comprehensive daily legal support</h1>
+                            <p>
+                             In addition, over time, the work will become the same type 
+                             and uninteresting for a full-time lawyer. And we know very
+                             well how difficult it is to find a good candidate with experience
+                             in the field of information technology in Ukraine.
+                            </p>
+                        </div>
+                        <div class="carousel-item">
+                            <h1 class="text-start pb-4">Building contractual relations</h1>
+                            <p>
+                             Once a week, or week after month, you have your own lawyer by your side.
+                             Anyone in the company can catch it at the
+                             coffee maker and just talk about current affairs instead of waiting for update status.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Advantages -->
+        <section id="Advantages" class="section-advantages">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="d-flex align-items-center txt-center">
+                        <div class="arrow-right">
+                            <a class="h5-advantages" href="#Advantages">Services</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                            </svg>
+                        </div>
+                    </div>
+                        <h1 class="h1-title-advant">What can we do better than others?</h1>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <object data="./assets/icons/Icon-bag.svg" type=""></object>
+                            <h1 class="h1-advantages">IT and e-commerce</h1>
+                            <p class="text-light">
+                                An endless stream of contracts, tax issues, labor <br> relations,
+                                corporate papers - legal work distracts <br> you from doing
+                                business. But there is not much <br> work to do to hire an in-house lawyer.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <object data="./assets/icons/Icon-backpack.svg" type=""></object>
+                            <h1 class="h1-advantages">Comprehensive daily legal support</h1>
+                            <p  class="text-light">
+                             In addition, over time, the work will become the <br> same type and uninteresting for
+                             a full-time <br> lawyer.And we know very well how difficult it is to <br>
+                             find a good candidate with experience
+                             in the field <br> of information technology in Ukraine.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <object data="./assets/icons/Icon-element.svg" type=""></object>
+                            <h1 class="h1-advantages">Structuring corporate relationships</h1>
+                            <p  class="text-light">
+                                Instead of just providing legal services,
+                                we will <br> hire a lawyer or a whole team that will fit into the <br> daily life of
+                                your company.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <object data="./assets/icons/Icon-hands.svg" type=""></object>
+                            <h1 class="h1-advantages">Building contractual relations</h1>
+                            <p  class="text-light">
+                                Once a week, or week after month, you have your <br> own lawyer by your side.
+                                Anyone in the company <br> can catch it at the
+                                coffee maker and just talk <br> about current affairs instead of waiting for update <br> status.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <object data="./assets/icons/Icon-protection.svg" type=""></object>
+                            <h1 class="h1-advantages">Protection of business, intellectual property</h1>
+                            <p  class="text-light">
+                                And all the other time he will work on new <br> diverse projects, so he will definitely
+                                not stop in <br> professional development.
+                                One way or another,<br> all Axon Partners will work for you instead of a <br> corporate lawyer.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <object data="./assets/icons/Icon-justice.svg" type=""></object>
+                            <h1 class="h1-advantages">Judicial representation</h1>
+                            <p  class="text-light">
+                                Is it a small,
+                                medium-sized company or a market <br> leader? Local business or multinational <br> company?
+                                Do you have your own legal <br> department or not?
+                            </p>
+                        </div>  
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="carousel-img">
+        <div class="container-lg">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-slide-2">
+                <div class="carousel-indicators carousel-indicators-2">
+                    <button type="text-button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" 
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" 
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carousel-inner-2">
+                    <div class="carousel-item carousel-item-2 active carousel-2 ">
+                        <div class="width-img-carousel">
+                            <img src="./assets/img_svg/img-person-1.svg" class="d-block w-100 " alt="...">
+                        </div>
+                        <div class="txt-block-carousel">
+                            <div class="d-flex ">
+                                <p class="txt-carousel">команда</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m bi bi-caret-right"
+                                    viewBox="0 0 16 16">
+                                    <path class="arrow-right-cl"
+                                        d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                                </svg>
+
+                            </div>
+                            <h2 class="h2-carousel">
+                                Ми звикли брати на себе відповідальність
+                                та завжди <br> гарантуємо чесну, вчасну допомогу,
+                                навіть у <br> ситуаціях, коли більшість
+                                безсилі.
+                            </h2>
+                            <p class="txt-name-carousel">Олександр Олександровський</p>
+                            <p class="job-title-carousel">Керуючий партнер</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item  carousel-item-2 carousel-2">
+                        <div class="width-img-carousel">
+                            <img src="./assets/img_svg/img-person-2.svg" class="d-block w-100" alt="...">
+                        </div>
+                        <div>
+                         <div class="d-flex ">
+                            <p class="txt-carousel">команда</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m bi bi-caret-right"
+                                viewBox="0 0 16 16">
+                                <path class="arrow-right-cl"
+                                    d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                            </svg>
+                         </div>
+                            <h2 class="h2-carousel">
+                                Ми звикли брати на себе відповідальність
+                                та завжди гарантуємо чесну, вчасну допомогу,
+                                навіть у ситуаціях, коли більшість
+                                безсилі.
+                            </h2>
+                            <p class="txt-name-carousel">Владислав Мельник</p>
+                            <p class="job-title-carousel">Партнер</p>
+            
+                        </div>
+                    </div>
+                    <div class="carousel-item  carousel-item-2 carousel-2">
+                        <div class="width-img-carousel">
+                            <img  src="./assets/img_svg/img-person-3.svg" class="d-block w-100" alt="...">
+                        </div>
+                        <div>
+                         <div class="d-flex ">
+                            <p class="txt-carousel">команда</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="m bi bi-caret-right"
+                                viewBox="0 0 16 16">
+                                <path class="arrow-right-cl"
+                                    d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                            </svg>
+                        
+                         </div>
+                            <h2 class="h2-carousel">
+                                Ми звикли брати на себе відповідальність
+                                та завжди гарантуємо чесну, вчасну допомогу,
+                                навіть у ситуаціях, коли більшість
+                                безсилі.
+                            </h2>
+                            <p class="txt-name-carousel">Сергій Бін</p>
+                            <p class="job-title-carousel">Партнер</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- company -->
+        <section class="section-company">
+            <div class="container-lg ">
+                <h3 class="h3-company d-flex justify-content-center">They already trust us</h3>
+                <div class="row ">
+                    <div class="col-36 col-sm-4 col-lg-3 bg-1 width  d-flex align-items-center justify-content-center">
+                        <object data="./assets/img_svg/img-Hillel-logo-oneline-white.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-2  width d-flex align-items-center justify-content-center">
+                        <object data="./assets/img_svg/img-wannabiz.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-3  width d-flex align-items-center justify-content-center">
+                        <object data="./assets/img_svg/logo-1.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-4  width d-flex align-items-center justify-content-center">
+                        <object data="./assets/img_svg/img-3Dlook.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-5  width d-flex align-items-center justify-content-center">
+                        <object data="./assets/img_svg/img-orangear.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-6  width d-flex align-items-center justify-content-center">
+                        <object data="./assets/img_svg/img-adtelligent.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-7  width   d-none-sm">
+                        <object class="d-none-4m" data="./assets/img_svg/img-clickky.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-8  width   d-none-sm">
+                        <object data="./assets/img_svg/img-eco-leasing.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-9  width    d-none-sm">
+                        <object data="./assets/img_svg/img-infra-tek.svg" type=""></object>
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-10  width  d-none-sm">
+                        <object data="./assets/img_svg/img-city-park.svg" type=""></object>
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-11  width  d-none-sm">
+                        <object data="./assets/img_svg/img-art-print-studic.svg" type=""></object>
+        
+                    </div>
+                    <div class="col-36 col-sm-4 col-lg-3 bg-12  width    d-none-sm">
+                        <object data="./assets/img_svg/img-ultimate-card.svg" type=""></object>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- More information -->
+    <section class="section-information">
+        <div class="container-lg">
+            <div class="d-flex ">
+                <p class="txt-inform">Publications</p>
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="  bi bi-caret-right"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z" />
+                    </svg>
+            </div>
+            <h2 class="h2-inform ">We have something to tell</h2>
+                <div class=" d-flex justify-content-center  ">
+                    <div class="box">
+                        <div class="col-md-5 col-lg-4 bg-9 block-inform  p-30">
+                            <img class="img-inform w-100" src="./assets/img_svg/img-inform-1.svg" alt="">
+                            <p class="f-txt-inform p-top-30">Equity associate</p>
+                            <p class="m-txt-inform">April 22</p>
+                            <div class="line-item"></div>
+                            <p class="l-txt-inform ">
+                                I'm a jun on projects.
+                                I am a co-owner of a law firm.How it <br> happened. Before entering my parents told me that if I…
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-lg-4 block-inform p-30">
+                            <img class="img-inform w-100" src="./assets/img_svg/img-inform-2.svg" alt="">
+                            <p class="f-txt-inform p-top-30 ">Penalty for the Good  Corporation: what <br> will  happen to Google and
+                                others for violating the GDPR
+                            <p class="m-txt-inform">September 29</p>
+                            <div class="line-item"></div>
+                            <p class="l-txt-inform">
+                                And why the recovery of 50 million euros
+                                could be a fateful <br> precedent According to Mind.ua January 21 National <br>
+                                Commission for Data Protection.
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-lg-4 block-inform p-30  ">
+                            <img class="img-inform w-100  height-w " src="./assets/img_svg/img-inform-3.svg" alt="">
+                            <p class="f-txt-inform p-top-30"> Millennial Testament</p>
+                            <p p class="m-txt-inform">August 19</p>
+                            <div class="line-item"></div>
+                            <p class="l-txt-inform">
+                                What and how modern vloggers,
+                                opinion leaders and crypto- <br>millionaires will inherit A typical legacy of the Ukrainian <br>
+                                generation X looks like this: an apartment in…
+                            </p>
+                        </div>
+
+                    </div>
+                   
+                </div>
+        </div>
+    </section>
+    <div class="footer">
+           <div class="container-lg">
+                <div class="footer-location d-flex">
+                    <p class="footer-adress">
+                        Kyiv, Mechnikova str, 14/1
+                    </p>
+                    <span class="footer-top-span"></span>
+                    <p class="footer-txt">On map</p>
+                </div>
+                <p class="footer-name">
+                    © 2021 HLEGAL Law company, LLC
+                </p>
+                <div class="footer-info">
+                     <object class="footer-logo" data="./assets/icons/Facebook-Footer.svg" type=""></object>
+                     <span class="footer-top-span"></span>
+                    <p class="footer-number">
+                        0800 211 927
+                    </p>
+                    <span class="footer-top-span"></span>
+                    <p class="footer-mail">
+                        contact@forstudy.space
+                    </p>
+                </div>
+        </div>
+    </div>
+   
+   
+</body>
+</html>
